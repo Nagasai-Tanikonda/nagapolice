@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://nagasai-tanikonda.github.io/RESEARCH_PORTIFOLIO_NAGA",
+  "homepage": "https://nagasai-tanikonda.github.io/policemad",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
