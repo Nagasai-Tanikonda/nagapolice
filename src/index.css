@@ -1,0 +1,24 @@
+:root {
+  --bg: #070815;
+  --panel: #0f1724;
+  --muted: #9aa4b2;
+  --accent1: #8b5cf6;
+  --accent2: #f472b6;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: radial-gradient(ellipse at 10% 20%, rgba(139,92,246,0.08), transparent 10%), radial-gradient(ellipse at 90% 80%, rgba(244,114,182,0.04), transparent 10%), var(--bg);
+  color: var(--muted);
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
